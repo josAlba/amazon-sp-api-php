@@ -24,7 +24,6 @@ use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
 /**
  * PaymentMethodDetailItemList Class Doc Comment.
  *
-
  * @description A list of payment method detail items.
  *
  * @author   Stefan Neuhaus / ClouSale
@@ -46,7 +45,7 @@ class PaymentMethodDetailItemList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-            ];
+    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -54,7 +53,7 @@ class PaymentMethodDetailItemList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerFormats = [
-            ];
+    ];
 
     /**
      * Array of property to type mappings. Used for (de)serialization.
@@ -83,7 +82,7 @@ class PaymentMethodDetailItemList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-            ];
+    ];
 
     /**
      * Array of attributes to setter functions (for deserialization of responses).
@@ -91,7 +90,7 @@ class PaymentMethodDetailItemList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-            ];
+    ];
 
     /**
      * Array of attributes to getter functions (for serialization of requests).
@@ -99,7 +98,7 @@ class PaymentMethodDetailItemList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-            ];
+    ];
 
     /**
      * Array of attributes where the key is the local name,
@@ -166,9 +165,7 @@ class PaymentMethodDetailItemList implements ModelInterface, ArrayAccess
      */
     public function listInvalidProperties()
     {
-        $invalidProperties = parent::listInvalidProperties();
-
-        return $invalidProperties;
+        return [];
     }
 
     /**
@@ -209,8 +206,8 @@ class PaymentMethodDetailItemList implements ModelInterface, ArrayAccess
     /**
      * Sets value based on offset.
      *
-     * @param int   $offset Offset
-     * @param mixed $value  Value to be set
+     * @param int $offset Offset
+     * @param mixed $value Value to be set
      *
      * @return void
      */
